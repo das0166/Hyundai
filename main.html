@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>현대카드</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="./css/font.css" type="text/css"/>
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/script.js"></script>
+   
+</head>
+<body>
+    <div class="event_wrap">
+        <div class="section_1">
+            <h1 class="logo"><img src="./img/hyundaicard_logo_w.png" alt="HYUNDAICARD"></h1>
+            <div class="card_wrap">
+                <div class="main_bg"></div>
+                <div class="main-text">
+                    <p>어디서나 <span class="point">M포인트</span><br>적립받는 카드</p>
+                    <p>현대카드 <span class="point">M BOOST</span></p>
+                </div>
+                <div class="down"><span></span><span></span></div>
+            </div>
+        </div>
+        <div class="section_2">
+            <div class="card_design">
+                <h2><span class="point">M BOOST</span>의 특별한 디자인</h2>
+                <div class="swiper swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide"><img class="card_GA" src="./img/card_MBT_GA_f.png"></div>
+                      <div class="swiper-slide"><img class="card_GB" src="./img/card_MBT_GB_f.png"></div>
+                      <div class="swiper-slide"><img class="card_GC" src="./img/card_MBT_GC_f.png"></div>
+                      <div class="swiper-slide"><img class="card_GG" src="./img/card_MBT_GG_f.png"></div>
+                      <div class="swiper-slide"><img class="card_GH" src="./img/card_MBT_GH_f.png"></div>
+                      <div class="swiper-slide"><img class="card_GI" src="./img/card_MBT_GI_f.png"></div>
+                      <div class="swiper-slide"><img class="card_GJ" src="./img/card_MBT_GJ_f.png"></div>
+                      <div class="swiper-slide"><img class="card_GK" src="./img/card_MBT_GK_f.png"></div>
+                      <div class="swiper-slide"><img class="card_GL" src="./img/card_MBT_GL_f.png"></div>
+                    </div>
+                   
+                  
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+     
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
+                                  <!-- If we need pagination -->
+                   <div class="swiper-pagination"></div>
+                  </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+          // Optional parameters
+          direction: 'horizontal',
+          loop: true,
+          slidesPerView:3,
+          effect : 'coverflow',
+    
+         
+    
+          // Navigation arrows
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+    
+          // And if we need scrollbar
+          scrollbar: {
+            el: '.swiper-scrollbar',
+            type: "progressbar",
+          },
+           // If we need pagination
+           pagination: {
+            el: '.swiper-pagination',
+            type: "progressbar",
+          },
+        });
+    
+    </script>
+</body>
+</html>

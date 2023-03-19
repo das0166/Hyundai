@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'YouandiModernTR';
+    font-style: normal;
+    font-weight: normal;
+    src: url(../font/YouandiModernTR.eot);
+    src: url(../font/YouandiModernTR.eot?#iefix) format('embedded-opentype'),
+         url(../font/YouandiModernTR.woff) format('woff'),
+         url(../font/YouandiModernTR.ttf) format('opentype');
+}

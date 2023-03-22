@@ -74,7 +74,7 @@ h2{font-size: 65px;}
 /*benefits_1*/
 .benefits_1 h3:first-child{margin-bottom: 10px;}
 .benefits_1 h3:last-child{margin-top: 0;}
-.benefits_txt{width: 57vh;}
+/* .benefits_txt{width: 57vh;} */
 .percent{display: flex; align-items: flex-end; justify-content: flex-end; margin-top: -7vh;height: 30vh;}
 .percent>div{margin: 0 3vh;}
 .left_per{width: 3.6vw; height: 7vh; border-radius: 5px; background-image: linear-gradient(to top, #29306e, #0070f0); margin: 0 auto;}
@@ -116,7 +116,7 @@ h2{font-size: 65px;}
 button{width: 100%; height: 106px; border: none; cursor: pointer; font-size: 2em; border-radius: 50px; background-image: linear-gradient(45deg, #0070f0 0%, #6867E2 35%,#8F5DD2 50%, #6867E2 80%, #0070f0 100%); background-size: 200%; animation: graAuto 2s ease-in-out infinite;}
 
 /*footer*/
-.footer{padding: 0 5vh;}
+.footer{padding: 0 5vh; margin-bottom: 20px;}
 .footer h4, ul, li{text-align: left; word-break:keep-all;}
 .footer h4{font-size: 1.5em; margin-bottom: 15px;}
 .footer ul{position: relative; padding-left: 17px;}
@@ -128,7 +128,7 @@ ul, li{font-size: 1em; line-height: 1.4; list-style: none;}
 @media (max-width: 650px){
     .logo{width: 20%; padding-top: 20px;}
     .main-text p:nth-child(1){font-size: 50px; margin-bottom: 30px;}
-    .main-text p:nth-child(2) {font-size: 25px;}
+    .main-text p:nth-child(2) {font-size: 24px;}
     .down a span{width: 15px; height: 15px;}
     h2 {font-size: 35px;}
     .card_show, .card_none{height: 70%;}
@@ -147,8 +147,22 @@ ul, li{font-size: 1em; line-height: 1.4; list-style: none;}
     button{height: 70px; font-size: 18px;}
 }
 
-@media (max-width: 400px){
- .logo {width: 25%; padding-top: 10px;}
+@media (max-width: 450px){
+    .logo {width: 25%; padding-top: 10px;}
+    .main-text p:nth-child(1){font-size: 45px;}
+    .section_1 {height: 78vh;}
+    h2 {font-size: 30px;}
+    .card_show, .card_none {height: 70%;}
+    .swiper .swiper-button-prev, .swiper .swiper-button-next{display: none;}
+    .swiper-container {height: 30vh; margin-top: 4vh;}
+    .section_3, .button {padding: 0px 15px;}
+    .section_3>h2 {margin-top: 50px;}
+    .percent>div>div {width: 9.5vw;}
+    .percent p {font-size: 10px;}
+    .button {margin-bottom: 4vh;}
+    .footer h4 {font-size: 1.2em; margin: 0 auto;}
+    .footer{margin-bottom: 20px;}
+    .footer ul{font-size: 12px;}
 }
 
 @media screen and (min-width: 1200px){

@@ -237,6 +237,11 @@ ul, li{font-size: 1em; line-height: 1.4; list-style: none;}
     /* .swiper-slide img.card_none:hover{opacity: 0;} */
 }
 
+@media (max-width:390px){
+    .main-text {padding-top: 50vh;}
+    .swiper-container {height: 37vh;}
+}
+
 @media screen and (min-width: 1200px){
 .event_wrap {
     max-width: 1000px;

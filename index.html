@@ -9,8 +9,8 @@
   <link rel="stylesheet" href="./css/style.css" type="text/css" />
   <link rel="stylesheet" href="./css/font.css" type="text/css" />
   <script src="./js/jquery-3.4.1.min.js"></script>
-  <script src="./js/script.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 
 <body>
@@ -32,39 +32,39 @@
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
           <!-- Slides -->
-          <div class="swiper-slide"><img class="card_show" src="./img/card_MBT_GJ_f.png"><img class="card_none"
+          <div class="swiper-slide sw_show1"><img class="card_show" src="./img/card_MBT_GJ_f.png"><img class="card_none none_1"
               src="./img/card_MBT_GJ_b.png">
             <p>the Gear</p>
           </div>
-          <div class="swiper-slide"><img class="card_show" src="./img/card_MBT_GB_f.png"><img class="card_none"
+          <div class="swiper-slide sw_show2"><img class="card_show" src="./img/card_MBT_GB_f.png"><img class="card_none none_2"
               src="./img/card_MBT_GB_b.png">
             <p>M Fluffy</p>
           </div>
-          <div class="swiper-slide"><img class="card_show" src="./img/card_MBT_GA_f.png"><img class="card_none"
+          <div class="swiper-slide sw_show3"><img class="card_show" src="./img/card_MBT_GA_f.png"><img class="card_none none_3"
               src="./img/card_MBT_GA_b.png">
             <p>M Charger</p>
           </div>
-          <div class="swiper-slide"><img class="card_show" src="./img/card_MBT_GC_f.png"><img class="card_none"
+          <div class="swiper-slide sw_show4"><img class="card_show" src="./img/card_MBT_GC_f.png"><img class="card_none none_4"
               src="./img/card_MBT_GC_b.png">
             <p>M Steel</p>
           </div>
-          <div class="swiper-slide"><img class="card_show" src="./img/card_MBT_GG_f.png"><img class="card_none"
+          <div class="swiper-slide sw_show5"><img class="card_show" src="./img/card_MBT_GG_f.png"><img class="card_none none_5"
               src="./img/card_MBT_GG_b.png">
             <p>Bubble Wrap</p>
           </div>
-          <div class="swiper-slide"><img class="card_show" src="./img/card_MBT_GH_f.png"><img class="card_none"
+          <div class="swiper-slide sw_show6"><img class="card_show" src="./img/card_MBT_GH_f.png"><img class="card_none none_6"
               src="./img/card_MBT_GH_b.png">
             <p>Gummy Bear</p>
           </div>
-          <div class="swiper-slide"><img class="card_show" src="./img/card_MBT_GI_f.png"><img class="card_none"
+          <div class="swiper-slide sw_show7"><img class="card_show" src="./img/card_MBT_GI_f.png"><img class="card_none none_7"
               src="./img/card_MBT_GI_b.png">
             <p>Canvas</p>
           </div>
-          <div class="swiper-slide"><img class="card_show" src="./img/card_MBT_GL_f.png"><img class="card_none"
+          <div class="swiper-slide sw_show8"><img class="card_show" src="./img/card_MBT_GL_f.png"><img class="card_none none_8"
               src="./img/card_MBT_GL_b.png">
             <p>the Coil</p>
           </div>
-          <div class="swiper-slide"><img class="card_show" src="./img/card_MBT_GK_f.png"><img class="card_none"
+          <div class="swiper-slide sw_show9"><img class="card_show" src="./img/card_MBT_GK_f.png"><img class="card_none none_9"
               src="./img/card_MBT_GK_b.png">
             <p>the Can</p>
           </div>
@@ -78,7 +78,7 @@
         <div class="swiper-pagination"></div>
       </div>
     </div>
-    <div class="section_3">
+    <div class="section_3" id="sec3">
       <h2><span class="point">M BOOST</span>의 엄청난 혜택</h2>
       <p>* 당월 실적 및 적립 기준 등 자세한 내용은 상품설명서를 통해 확인</p>
       <div class="benefits_1">
@@ -89,12 +89,12 @@
         <div class="percent">
           <div class="left">
             <p>0.5~3%</p>
-            <div class="left_per perc-left"></div>
+            <div class="left_per"></div>
             <p>50만~100만원</p>
           </div>
           <div class="right">
             <p>1.5배</p>
-            <div class="right_per perc-right"></div>
+            <div class="right_per"></div>
             <p>100만원 이상</p>
           </div>
         </div>
@@ -102,6 +102,7 @@
       <div class="benefits_2">
         <h3>온라인 간편결제, 해외 가맹점 당월 이용금액 50만원 이상 시 최대 <span class="point">1만 M포인트</span> 적립</h3>
         <div class="pay_ico">
+          <img src="./img/ico_applepay_wht.png" alt="applepay">
           <img src="./img/ico_npay_wht.png" alt="npay">
           <img src="./img/ico_kakaopay_wht.png" alt="kakaopay">
           <img src="./img/ico_samsungpay_wht.png" alt="samsungpay">
@@ -175,6 +176,7 @@
       </ul>
     </div>
 
+    <script src="./js/script.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script>

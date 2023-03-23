@@ -1,7 +1,5 @@
 $(document).ready(function () {
-  // $('.show').click(function () {
-  //   $('.card_none').toggleClass('active');
-  // });
+  // 카드 뒷면 보이게하는 코드
   $(window).resize(function(){ 
     if (window.innerWidth < 1030.9) {
     $(".sw_show1").click(function(){
@@ -44,12 +42,14 @@ $(document).ready(function () {
   }).resize(); 
 });
 
+// 새로고침 시 맨 위로 이동
 window.onload = function () {
   setTimeout(function () {
     scrollTo(0, 0);
   }, 100);
 }
 
+// 그래프가 보이는 위치에 도달했을때 애니메이션 주는 코드
 window.addEventListener('scroll', function () {
   console.log(window.scrollY)
   if (window.scrollY >= scroll2 && window.scrollY <= downto) {
@@ -60,7 +60,6 @@ window.addEventListener('scroll', function () {
     right.classList.remove('perc-right')
   }
 })
-
 const sec3 = document.querySelector(".section_3")
 const scroll2 = sec3.offsetTop-300
 const downto = sec3.offsetTop+600
